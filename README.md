@@ -18,7 +18,7 @@ Welcome to **GenieAI**, an intelligent chatbot designed to provide users with a 
 
 ## 📸 Preview  
 
-![GenieAI Chatbox](./assets/Screenshot.png)  
+[![GenieAI Chatbox](./src/assets/Screenshot.png)](https://genieai-chatbot.vercel.app/)
 
 ## ✨ Future Features  
 
