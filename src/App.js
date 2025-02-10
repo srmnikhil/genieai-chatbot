@@ -12,14 +12,18 @@ function App() {
   const [chatHistory, setChatHistory] = useState([]);
   const [inputValue, setInputValue] = useState("");
 
-  // Fetch the response from Gemini API
   async function fetchResponse(prompt) {
     try {
-      const result = await model.generateContent(prompt);
+      const instruction = 
+        "You are a humorous AI assistant who only answers questions related to coding, software engineering, programming, and related technical topics. If the question is outside this domain, respond with a funny excuse explaining why you can't answer it.";
+      
+      const fullPrompt = `${instruction}\n\nUser: ${prompt}\nAI:`;
+  
+      const result = await model.generateContent(fullPrompt);
       return result.response.text(); // Returning the text response
     } catch (error) {
       console.error("Error fetching data:", error);
-      return "Sorry, I couldn't answer right now. Please try again or contact developer at srmnikhilswn@gmail.com";
+      return "Oops! My brain just crashed like an unoptimized recursive function. Try again later!";
     }
   }
 
