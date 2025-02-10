@@ -44,7 +44,7 @@ const Chatbox = ({ chatHistory, onSendMessage }) => {
           GenieAI
         </h1>
         <p className="text-sm font-bold italic text-purple-600">
-          Jo Hukum, Mere User
+          Jo Hukum, Mere Developer
         </p>
       </div>
 
