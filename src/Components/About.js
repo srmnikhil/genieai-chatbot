@@ -7,7 +7,7 @@ const About = () => {
           About GenieAI Chatbot
         </h2>
         <p className="text-lg mb-4 drop-shadow-md">
-          GenieAI is a smart chatbot that uses Gemini Google AI Studio. It can reply quickly to your questions and understand what you're asking. Whether you need help, advice, or just want to chat, GenieAI is ready to talk anytime. It knows what you're saying and tries to give the best answers. You can always count on GenieAI.
+          GenieAI is a chatbot that uses Gemini Google AI Docs. It is designed as it only reply to your tech related or programming, coding related questions in a funnier way and understand what you're asking. Whether you need a technical help, advice, or just want to have some fun, GenieAI is ready to talk anytime.
         </p>
         <p className="mt-4 text-lg">
           Start Messaging
@@ -18,7 +18,7 @@ const About = () => {
       <div className="hidden lg:block max-w-4xl mx-auto text-center text-white">
         <h2 className="text-3xl font-bold mb-4 drop-shadow-lg">About the Developer</h2>
         <p className="text-lg mb-4 drop-shadow-md">
-          This chatbot was created by <a className="italic hover:text-blue-700 hover:underline font-bold" href="https://www.linkedin.com/in/srmnikhil" target="_blank" rel="noreferrer">Nikhil Sharma</a> to provide a seamless and intelligent experience for users. The development process included integrating cutting-edge AI technology and designing a user-friendly interface. This chatbot is updating so stay tuned for more updates on future features!
+          This chatbot was created by <a className="italic hover:text-blue-700 hover:underline font-bold" href="https://www.linkedin.com/in/srmnikhil" target="_blank" rel="noreferrer">Nikhil Sharma</a> to provide a funnier response of tech related questions for users. The development process included integrating gemini with some changes and designing a user-friendly interface. This chatbot is updating so stay tuned for more updates on future features!
         </p>
       </div>
     </section>
