@@ -1,4 +1,4 @@
-# <img src="./src/assets/logo.png" alt="GenieAI Logo" width="30" height="30"> GenieAI Chatbot   
+# <img src="./src/assets/logo.png" alt="GenieAI Logo" width="30" height="30"> GenieAI Chatbot 🌟
 
 Welcome to **GenieAI Chatbot**, an intelligent chatbot designed to provide users with a seamless conversational experience. This project integrates Gemini AI technology with a user-friendly interface to deliver users technical questions.
 
